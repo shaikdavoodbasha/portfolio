@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.one{
+    width: 100%;
+    height: 625px;
+    background-color:#232323;
+}
+.nav ul{
+    float: right;
+}
+.nav ul li{
+    list-style-type: none;
+    margin-right: 50px;
+    margin-top: 30px;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    margin-right: 50px;
+    font-family: 'Creepster', cursive;
+    font-size: 25px;
+    color: white;
+}
+.nav ul li a:hover{
+    color: aqua;
+}
+.nav span{
+    position: absolute;
+    left: 100px;
+    font-size: 23px;
+    font-family: 'Charm', cursive;
+    color: white;
+    top: 20px;
+}
+.two{
+    width: 600px;
+    height: 420px;
+    position:relative;
+    top: 120px;
+    left: 100px;
+}
+.s1{
+    font-size: 30px;
+    color:  white;
+    position: relative;
+    top: 40px;
+    font-family: 'Berkshire Swash', cursive;
+}
+.s2{
+    font-size: 50px;
+    color:  white;
+    position: relative;
+    top: 100px;
+    left: -180px;
+    font-family: 'Creepster', cursive;
+}
+
+.two p{
+    position: relative;
+    top: 110px;
+    font-size: 16px;
+    color: aqua;
+    font-family: 'Wallpoet', cursive;
+    
+}
+#p1{
+    position: relative;
+    top: 120px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Charm', cursive;
+}
+.three{
+    position: relative;
+    top: 150px;
+    right: 10px;
+}
+/*#i1{
+    border-radius: 20px;
+}*/
+#i2,#i3,#i4{
+    padding-left: 10px;
+}
+button{
+    position: relative;
+    top: 180px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 4px 5px 0px aqua;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    background-color: aqua;
+}
+.four{
+    width: 300px;
+    height: 350px;
+    position: relative;
+    left: 900px;
+    bottom: 250px;
+    
+}
+.four img{
+    width: 100%;
+    height:100%;
+    border-radius: 500px;
+    box-shadow: 0px 4px 20px 0px aqua;
+    transition: 1s;
+}
+.four img:hover{
+    transform: scale(1.2);
+    
+}
